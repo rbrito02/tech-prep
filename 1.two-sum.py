@@ -8,6 +8,7 @@ class Solution:
                 return [complements[target - num], idx]
             else:
                 complements.update({num: idx})
+                # complements[target-num] = idx
 
         return []
 
